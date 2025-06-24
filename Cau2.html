@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2 {
+        text-align: center;
+        color: #0056b3;
+        margin-bottom: 30px;
+    }
+    
+    .favorite-subject-grid {
+        display: grid;
+        gap: 20px;
+        padding: 0;
+        list-style: none;
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-template-colums: repeat(3, 1fr);
+    }
+    
+    .subject-card {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 25px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    #mon1 {
+        background-color: #fff06e;
+        color: #e67300;
+        border-color: #ebae7a;
+    }
+    
+    #mon2 {
+        background-color: #f5a16a;
+        color: #e67300;
+        border-color: #ffd7b3;
+    }
+    
+    #mon3 {
+        background-color: rgb(143, 241, 209);
+        color: #be9ff0;
+        border-color: #eead6c;
+    }
+</style>
+
+<body>
+
+    <h2>Danh sách các môn học yêu thích</h2>
+
+    <ul class="favorite-subject-grid">
+        <li id="mon1" class="subject-card">Hệ thống và công nghệ Web</li>
+        <li id="mon2" class="subject-card">Đồ họa ứng dụng</li>
+        <li id="mon3" class="subject-card">Marketing số</li>
+    </ul>
+
+</body>
+
+</html>
